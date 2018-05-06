@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="pathLines" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\Users\Usuario\Desktop\entrada.txt</Value>
+      <Value Profile="(Default)">C:\Users\Usuario\Desktop\XG.BucketSum\entrada.txt</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -25,7 +25,7 @@ namespace XG.BucketSum.Con {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Usuario\\Desktop\\entrada.txt")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Usuario\\Desktop\\XG.BucketSum\\entrada.txt")]
         public string pathLines {
             get {
                 return ((string)(this["pathLines"]));
