@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="XG.BucketSum.Service.BucketSumService" CodeBehind="BucketSumService.svc.cs" %>

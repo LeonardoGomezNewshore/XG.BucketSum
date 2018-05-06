@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="aa03a175-7b0f-4486-8fc2-c2c4b5fe46e5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58467/BucketSumService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BucketSumService.xsd" MetadataType="Schema" ID="876d70c6-7511-4ae4-bca7-80ed01eb9cf0" SourceId="1" SourceUrl="http://localhost:58467/BucketSumService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BucketSumService1.xsd" MetadataType="Schema" ID="af09fb1a-1493-4525-9a9c-4ebc271e883b" SourceId="1" SourceUrl="http://localhost:58467/BucketSumService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BucketSumService.wsdl" MetadataType="Wsdl" ID="86731177-16d6-4e54-b8de-622161bf383d" SourceId="1" SourceUrl="http://localhost:58467/BucketSumService.svc?wsdl" />
+    <MetadataFile FileName="BucketSumService.disco" MetadataType="Disco" ID="50095375-bb05-4a64-ba1d-2a6d1fa5a857" SourceId="1" SourceUrl="http://localhost:58467/BucketSumService.svc?disco" />
+    <MetadataFile FileName="BucketSumService2.xsd" MetadataType="Schema" ID="6dba4553-13f5-4dbc-95c0-9711e0db7d68" SourceId="1" SourceUrl="http://localhost:58467/BucketSumService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

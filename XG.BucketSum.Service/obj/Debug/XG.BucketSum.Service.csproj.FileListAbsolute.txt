@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\XG.BucketSum.Service.dll.config
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\XG.BucketSum.Service.dll
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\XG.BucketSum.Service.pdb
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\Castle.Core.dll
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\Castle.Windsor.dll
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\XG.BucketSum.Business.dll
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\XG.BuketSum.Common.dll
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\log4net.dll
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\XG.BucketSum.Business.pdb
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\XG.BuketSum.Common.pdb
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\Castle.Core.xml
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\Castle.Windsor.xml
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\bin\log4net.xml
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\obj\Debug\XG.BucketSum.Service.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\obj\Debug\XG.BucketSum.Service.dll
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Service\obj\Debug\XG.BucketSum.Service.pdb

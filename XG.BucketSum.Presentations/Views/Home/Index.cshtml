@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script src="~/Scripts/BuckepSum.js"></script>
+
+    <h1>Cubo Summary</h1>   
+
+
+<div class="row" class="jumbotron">
+
+    <div class="col-md-6">
+        <h2 style="margin-left:100px;">Entrada</h2>
+        <textarea class="form-control textAreaCustomize" rows="15" id="input" name="input" required></textarea>
+        
+    </div>
+    
+    <div class="col-md-6">
+        <h2 style="margin-left:100px;">Salida</h2>
+        <textarea class="form-control textAreaCustomize" rows="15" id="output" name="output" readonly></textarea>
+    </div>
+    <div class="col-xs-12 col-sm-2 text-center">
+        <button type="button" class="btn btn-success btn-lg btn-run" id="run" name="run" onclick="runSummation()">Run ></button>
+    </div>
+
+
+    @*<form action="http://cubesummationchallenge.epizy.com/public/run" method="POST" name="formRun" id="formRun" role="form">
+
+        <div class="col-xs-12 col-sm-5">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Input</div>
+                <input type="hidden" name="_token" value="l3UdnEcFfo9J62W6wtBgFQ8QRZFNXP2sM0NXrL0a">
+                <textarea class="form-control textAreaCustomize" rows="15" id="input" name="input" required></textarea>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-2 text-center">
+            <button type="button" class="btn btn-success btn-lg btn-run" id="run" name="run" onclick="runSummation()">Run ></button>
+        </div>
+
+        <div class="col-xs-12 col-sm-5">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Output</div>
+                <textarea class="form-control textAreaCustomize" rows="15" id="output" name="output" readonly></textarea>
+            </div>
+        </div>
+
+    </form>*@
+
+</div>

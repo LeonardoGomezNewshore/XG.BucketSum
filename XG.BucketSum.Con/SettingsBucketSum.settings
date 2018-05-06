@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="XG.BucketSum.Con" GeneratedClassName="SettingsBucketSum">
+  <Profiles />
+  <Settings>
+    <Setting Name="pathLines" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Usuario\Desktop\entrada.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
