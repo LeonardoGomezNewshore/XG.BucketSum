@@ -1,9 +1,8 @@
-﻿function runSummation() {
+﻿function runSum() {
    
     $("#output").val(" ");
     if (validateDates()) {
-        alert("Successful process!");
-        run();
+        runBucketSum();
     }
 }
 
@@ -64,7 +63,7 @@ function validateDates() {
     return true;
 }
 
-function run() {
+function runBucketSum() {
 
     $.ajax({
         type: "POST",

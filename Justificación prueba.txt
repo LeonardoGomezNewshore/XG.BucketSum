@@ -1,0 +1,29 @@
+La prueba se desarrolló sobre una arquitectura a N capas, que integra la inyección de dependencias proporcionada por la inversión de control de windsor castle, las capas de aplicacion son:
+
+XG.BucketSum.Common: Es una capa transversal de la aplicación, que es referenciada en las diferentes capas, para poder acceder a sus recursos  que puede ser utilizada en cualquiera de las capas y en este caso permite acceder a los helpers que se encargan de administrar la lectura y escritura de archivos txt.
+Helpers: 
+	FileDecorator.cs
+	FileManager.cs
+	IFileDecorator.cs
+	IFileManager
+IoC: 	SettingWindsor.cs
+
+XG.BucketSum.Businees: Sobre esta capa se desarrolla la lógica del negocio de la aplicación en la cual se controlan las peticiones del cliente y se realiza el llamado de los recursos necesarios para procesarla, sobre esta capa se implementa el patrón facade, para permitir un mayor control.
+
+Operations: OperationsBucketSum.cs
+	    IOperationsBucketSum.cs
+Patters:
+	Facade: BucketSumFacade.cs
+		IBucketSumFacade.cs
+IoC:  SettingWindsor.cs
+
+XG.BucketSum.Service: permite exponer los métodos de la lógica de negocio por medio de la interfaz  IBucketSumFacade.cs  el cual se puede acceder desde diferentes recursos como lo son el proyecto de Presentations y Con.
+
+Service: IBucketSumService.cs
+	 BucketSumService.cs
+
+
+XG.BucketSum.Presentations: Este proyecto representa una aplicación web que permite la entrada de los datos y consume el servicio que expone la lógica de negocio para recibir y procesar los datos introducidos por el cliente, en este proyecto se implementa el archivo BuckepSum.js en el cual se realiza las correspondientes validaciones sobre las restricciones solicitadas.
+
+XG.BucketSum.Con: Sobre este proyecto se realiza el llamado al servicio de la lógica de negocio para representar la solución por medio de una aplicación de consola.
+

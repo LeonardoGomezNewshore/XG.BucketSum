@@ -66,3 +66,4 @@ C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Presentations\bin\Microsoft.O
 C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Presentations\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Presentations\obj\Debug\XG.BucketSum.Presentations.dll
 C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Presentations\obj\Debug\XG.BucketSum.Presentations.pdb
+C:\Users\Usuario\Desktop\XG.BucketSum\XG.BucketSum.Presentations\obj\Debug\XG.BucketSum.Presentations.csprojResolveAssemblyReference.cache
